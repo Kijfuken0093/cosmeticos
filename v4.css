@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 0 800px;
+}
+
+@media (max-width:991px) {
+    .menu{
+        padding: 20px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: bisque;
+        display: none;
+    }
+.menu .navbar ul li a:hover{
+    color: black;
+}
+.menu .navbar ul li{
+    width: 100%;
+}
+#menu:checked ~.navbar{
+    display: initial;
+}
+.header{
+    min-width: 0vh;
+    padding: 80px 30px 50px 30px;
+}
+.header-txt{
+    text-align: center;
+    flex-basis: 100%;
+
+}
+.popular{
+    display: none;
+}
+.product{
+    padding: 30px;
+}
+.product-content{
+    grid-template-columns: repeat(1,1fr);
+    gap:30px
+}
+
+.product-1 img{
+    width: 100%;
+}
+.search{
+      
+        width: 33px;
+        float: left;
+        margin-left: 270px;
+        
+    }
+    .form{
+        margin-top: 15px;
+        width: 250px;
+        height: 380px;
+        background: linear-gradient(to top, rgba(231, 225, 225, 0.8)50%,rgba(233, 227, 227, 0.8)50%);
+        transform: translate(0%,-5%);
+        border-radius: 50px;
+        padding: 45px;
+        margin: 150px;
+      
+    }
+
+}
+footer{
+    text-align: center;
+    font-size: 16px;
+    font-family: forte;
+}
+.footer{
+    color: aliceblue;
+    text-align: center;
+
+}
+.header{
+    background-image: url(Presentación1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 95%;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px -100px;
+}
+h1{
+    color: white;
+    font-family: Bodoni MT Black;
+    size: 23px;
+}
+.ti{
+    border: 3px solid #ccc; 
+    margin: 20px; 
+    padding: 20px; 
+    text-align: center
+}
+img{
+    max-width: 100%;
+    width: 3000px;
+    height: 300px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.btd-2{
+    display: inline-block;
+    padding: 11px 35px;
+    border: 2px solid wheat;
+    border-radius: 25px;
+    margin-right: 25px;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+.btd-2:hover{
+    background-color: skyblue;
+
+}
+.popular{
+    padding: 100px 0;
+    text-align: center;
+}
+h2{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 45px;
+
+}
+.popular-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.popular-content img{
+    width: 340px;
+}
+.product-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.product-1{
+    background-color: rgb(107, 100, 100);
+}
+.product-txt{
+    padding: 50px 30px;
+}
+h3{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price p{
+    font-size: 17px;
+    color: aquamarine;
+}
+
+body{
+    background-size: 100% 85vh;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+
+
+.navbar{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(110, 52, 52);
+    padding: 5px;
+ 
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color:white;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    margin-top: 15px;
+    padding: 10px 50px;
+}
+
+ul li a:hover{
+    background-color:rgb(219, 191, 150);
+    border-radius: 30px;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #e0c8b2;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(219, 191, 139);
+    border: 2px solid #e0c8b2;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.form{
+    margin-top: 15px;
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(231, 225, 225, 0.8)50%,rgba(233, 227, 227, 0.8)50%);
+    transform: translate(0%,-5%);
+    border-radius: 50px;
+    padding: 45px;
+    margin: 150px;
+    
+ 
+}
+.form h2{
+    width: 220px;
+    font-family: forte;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    background-color: rgb(219, 191, 139);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #615c58;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: black;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: rgb(219, 191, 139);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: slategray;
+    color: white;
+}
+.btnn a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: rgb(124, 57, 57);
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+.icons ion-icon{
+    color: slategrey;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: black;
+}
